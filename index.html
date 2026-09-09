@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="盤後重點">
+<meta name="theme-color" content="#141A21">
+<title>盤後重點</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#141A21; --panel:#1C242E; --line:#2A3542; --line-soft:#222C37;
+  --ink:#E8EDF3; --ink-2:#9BAABB; --ink-3:#64748B;
+  --up:#FF5B52; --dn:#35C08A; --flat:#8494A6; --pulse:#F0B429;
+  --pad:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg)}
+body{
+  font-family:"Noto Sans TC",-apple-system,"PingFang TC","Helvetica Neue",sans-serif;
+  color:var(--ink);font-size:15px;line-height:1.55;
+  padding-bottom:env(safe-area-inset-bottom);-webkit-font-smoothing:antialiased;
+}
+.num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+a{color:inherit;text-decoration:none}
+
+header{padding:calc(env(safe-area-inset-top) + 18px) var(--pad) 0}
+.head-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.date{font-size:26px;font-weight:700;letter-spacing:-.02em}
+.date small{font-size:14px;font-weight:400;color:var(--ink-2);margin-left:8px;letter-spacing:0}
+.refresh{font-size:13px;color:var(--ink-2);padding:6px 12px;border:1px solid var(--line);border-radius:999px;flex:none}
+.refresh:active{background:var(--panel)}
+.refresh[data-busy="1"]{opacity:.45;pointer-events:none}
+
+.breadth{margin-top:20px}
+.bar{display:flex;height:34px;border-radius:5px;overflow:hidden;background:var(--line-soft)}
+.bar span{display:flex;align-items:center;font-size:13px;font-weight:500;padding:0 10px;
+  transition:flex-basis .5s cubic-bezier(.22,1,.36,1)}
+.bar .b-up{background:var(--up);color:#1A0B0A}
+.bar .b-dn{background:var(--dn);color:#062018;justify-content:flex-end}
+.bar .b-fl{background:var(--line)}
+.breadth-note{margin-top:9px;font-size:13px;color:var(--ink-2);display:flex;justify-content:space-between}
+
+nav{display:flex;gap:2px;margin:20px var(--pad) 0;border-bottom:1px solid var(--line)}
+nav button{flex:1;padding:11px 2px 10px;font-size:14px;font-weight:500;color:var(--ink-3);
+  border-bottom:2px solid transparent;margin-bottom:-1px}
+nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+
+main{padding:0 var(--pad) 48px}
+.panel{display:none;padding-top:6px}
+.panel.on{display:block}
+
+.row{display:grid;grid-template-columns:1fr auto;gap:4px 12px;
+  padding:13px 0 13px 12px;border-bottom:1px solid var(--line-soft);position:relative}
+.row::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:2px;background:var(--flat)}
+.row.up::before{background:var(--up)}
+.row.dn::before{background:var(--dn)}
+.nm{font-weight:500;font-size:16px}
+.nm i{font-style:normal;color:var(--ink-3);font-size:13px;font-weight:400;margin-left:7px}
+.px{text-align:right;font-size:16px;font-weight:700}
+.px em{display:block;font-style:normal;font-size:13px;font-weight:500;margin-top:1px}
+.up .px,.up .px em{color:var(--up)}
+.dn .px,.dn .px em{color:var(--dn)}
+.sub{font-size:13px;color:var(--ink-2);grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px}
+.sub b{font-weight:400;color:var(--ink-3)}
+.tag{font-size:12px;padding:2px 8px;border-radius:4px;background:var(--line-soft);color:var(--ink-2)}
+.tag.hot{background:rgba(240,180,41,.14);color:var(--pulse)}
+
+.sec{padding:15px 0;border-bottom:1px solid var(--line-soft)}
+.sec-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.sec-nm{font-size:16px;font-weight:500}
+.sec-nm i{font-style:normal;font-size:13px;color:var(--ink-3);font-weight:400;margin-left:7px}
+.sec-pct{font-size:16px;font-weight:700}
+.meter{height:6px;border-radius:3px;background:var(--line-soft);margin:10px 0 8px;overflow:hidden}
+.meter div{height:100%;border-radius:3px;transition:width .5s cubic-bezier(.22,1,.36,1)}
+.sec-foot{font-size:13px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:10px}
+
+.news{display:block;padding:14px 0;border-bottom:1px solid var(--line-soft)}
+.news h3{font-size:15px;font-weight:400;line-height:1.5}
+.news time{display:block;margin-top:5px;font-size:12px;color:var(--ink-3)}
+
+.state{padding:56px 8px;text-align:center;color:var(--ink-2);font-size:14px;line-height:1.8}
+.state strong{display:block;color:var(--ink);font-size:16px;font-weight:500;margin-bottom:6px}
+.banner{margin:14px 0 4px;padding:11px 13px;border-radius:6px;font-size:13px;line-height:1.6;
+  background:rgba(240,180,41,.1);color:#E8C065;border:1px solid rgba(240,180,41,.22)}
+.skel{height:64px;border-bottom:1px solid var(--line-soft);opacity:.3}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+:focus-visible{outline:2px solid var(--pulse);outline-offset:2px;border-radius:3px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-row">
+    <div class="date" id="date">載入中</div>
+    <button class="refresh" id="refresh">更新</button>
+  </div>
+  <div class="breadth">
+    <div class="bar" id="bar"></div>
+    <div class="breadth-note"><span id="breadth-l"></span><span id="breadth-r" class="num"></span></div>
+  </div>
+</header>
+
+<nav id="tabs">
+  <button aria-selected="true" data-p="focus">重點股</button>
+  <button aria-selected="false" data-p="reversal">由弱轉強</button>
+  <button aria-selected="false" data-p="sectors">強勢類股</button>
+  <button aria-selected="false" data-p="news">財經消息</button>
+</nav>
+
+<main>
+  <div class="panel on" id="p-focus"></div>
+  <div class="panel" id="p-reversal"></div>
+  <div class="panel" id="p-sectors"></div>
+  <div class="panel" id="p-news"></div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+
+$('tabs').addEventListener('click', e => {
+  const btn = e.target.closest('button'); if (!btn) return;
+  [...$('tabs').children].forEach(b => b.setAttribute('aria-selected', b === btn));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('on'));
+  $('p-' + btn.dataset.p).classList.add('on');
+  window.scrollTo({ top: 0 });
+});
+
+$('refresh').addEventListener('click', () => load());
+
+async function load() {
+  const btn = $('refresh');
+  btn.dataset.busy = '1';
+  document.querySelectorAll('.panel').forEach(p => {
+    p.innerHTML = '<div class="skel"></div><div class="skel"></div><div class="skel"></div>';
+  });
+
+  try {
+    const res = await fetch('report.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('找不到 report.json');
+    render(await res.json());
+  } catch (err) {
+    $('date').textContent = '尚未有資料';
+    $('bar').innerHTML = '';
+    $('p-focus').innerHTML = empty('還沒產生過報告',
+      '到 repo 的 Actions 分頁，手動執行一次「每日盤後更新」，跑完重整這頁就有了。');
+  }
+  btn.dataset.busy = '0';
+}
+
+function render(d) {
+  $('date').innerHTML = d.date + '<small>收盤　' + (d.generatedAt || '') + ' 更新</small>';
+
+  const m = d.market || { up: 0, down: 0, flat: 0, breadth: 0, totalValue: 0 };
+  const tot = Math.max(m.up + m.down + m.flat, 1);
+  $('bar').innerHTML =
+    '<span class="b-up num" style="flex-basis:' + (m.up / tot * 100) + '%">' + (m.up || '') + '</span>' +
+    '<span class="b-fl" style="flex-basis:' + (m.flat / tot * 100) + '%"></span>' +
+    '<span class="b-dn num" style="flex-basis:' + (m.down / tot * 100) + '%">' + (m.down || '') + '</span>';
+  $('breadth-l').textContent = m.breadth >= 60 ? '多方主導' : m.breadth >= 45 ? '多空拉鋸' : '空方主導';
+  $('breadth-r').textContent = '成交 ' + m.totalValue + ' 億';
+
+  const banner = d.ready === false
+    ? '<div class="banner">歷史資料累積中，目前 ' + d.dataDays + ' 個交易日。滿 25 日後轉強訊號才會穩定。</div>'
+    : '';
+
+  $('p-focus').innerHTML = banner + (d.focus && d.focus.length
+    ? d.focus.map(stockRow).join('')
+    : empty('今天沒有符合的重點股', '成交值需超過 5000 萬才會納入計算。'));
+
+  $('p-reversal').innerHTML = banner + (d.reversal && d.reversal.length
+    ? d.reversal.map(stockRow).join('')
+    : empty('今天沒有轉強訊號', '要同時站上 5MA、量增 1.5 倍、RSI 由低翻揚才會進榜，空手是常態。'));
+
+  $('p-sectors').innerHTML = banner + (d.sectors && d.sectors.length
+    ? d.sectors.slice(0, 12).map(sectorRow).join('')
+    : empty('尚無類股資料', '等下一次 Actions 執行完就會出現。'));
+
+  $('p-news').innerHTML = d.news && d.news.length
+    ? d.news.map(newsRow).join('')
+    : empty('沒有抓到新聞', '在 build.mjs 的 NEWS_FEEDS 換掉失效的 RSS 網址。');
+}
+
+function stockRow(s) {
+  const dir = s.pct > 0 ? 'up' : s.pct < 0 ? 'dn' : '';
+  const sign = s.pct > 0 ? '+' : '';
+  const chips = (s.why || []).map(w =>
+    '<span class="tag' + (w.includes('倍') ? ' hot' : '') + '">' + w + '</span>').join('');
+  const stats = s.why ? '' :
+    '<b>量能</b> ' + s.volRatio + '倍　<b>成交</b> ' + s.value + '億　<b>RSI</b> ' + (s.rsi ?? '—');
+  return '<div class="row ' + dir + '">' +
+      '<div class="nm">' + s.name + '<i>' + s.code + '　' + s.industry + '</i></div>' +
+      '<div class="px num">' + s.close.toFixed(2) + '<em>' + sign + s.pct + '%</em></div>' +
+      '<div class="sub">' + (chips || stats) + '</div>' +
+    '</div>';
+}
+
+function sectorRow(x) {
+  const sign = x.avgPct > 0 ? '+' : '';
+  const color = x.avgPct > 0 ? 'var(--up)' : x.avgPct < 0 ? 'var(--dn)' : 'var(--flat)';
+  const leaders = (x.leaders || []).map(l =>
+    l.name + ' <span class="num" style="color:' + (l.pct > 0 ? 'var(--up)' : 'var(--dn)') + '">' +
+    (l.pct > 0 ? '+' : '') + l.pct + '%</span>').join('　');
+  return '<div class="sec">' +
+      '<div class="sec-top">' +
+        '<div class="sec-nm">' + x.name + '<i>' + x.count + ' 檔</i></div>' +
+        '<div class="sec-pct num" style="color:' + color + '">' + sign + x.avgPct + '%</div>' +
+      '</div>' +
+      '<div class="meter"><div style="width:' + x.upRatio + '%;background:' + color + '"></div></div>' +
+      '<div class="sec-foot"><span class="num">上漲 ' + x.upRatio + '%</span>' +
+        '<span class="num">資金 ' + x.valueShare + '%</span></div>' +
+      (leaders ? '<div class="sec-foot" style="margin-top:6px">' + leaders + '</div>' : '') +
+    '</div>';
+}
+
+function newsRow(n) {
+  return '<a class="news" href="' + n.link + '" target="_blank" rel="noopener">' +
+      '<h3>' + n.title + '</h3>' +
+      (n.time ? '<time>' + shortTime(n.time) + '</time>' : '') +
+    '</a>';
+}
+
+function shortTime(s) {
+  const t = new Date(s);
+  if (isNaN(t)) return s;
+  return t.toLocaleString('zh-TW', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
+function empty(title, hint) {
+  return '<div class="state"><strong>' + title + '</strong>' + hint + '</div>';
+}
+
+load();
+</script>
+</body>
+</html>
