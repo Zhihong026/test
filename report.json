@@ -1,1259 +1,1258 @@
 {
- "date": "2026-11-05",
- "generatedAt": "11/6 下午10:44",
- "dataDays": 38,
+ "date": "2026-11-06",
+ "generatedAt": "11/10 上午01:02",
+ "dataDays": 39,
  "ready": true,
  "market": {
-  "up": 55,
-  "down": 364,
-  "flat": 11,
-  "breadth": 12.8,
-  "totalValue": 8722
+  "up": 34,
+  "down": 478,
+  "flat": 2,
+  "breadth": 6.6,
+  "totalValue": 11615
  },
  "focus": [
   {
-   "code": "7711",
-   "name": "永擎",
-   "industry": "電腦及週邊",
-   "close": 627,
-   "pct": 4.67,
-   "value": 37.07,
-   "volRatio": 5.81,
-   "rsi": 56.8,
-   "ma5": 572.6,
-   "ma20": 584.55,
-   "score": 162.2,
-   "why": null
-  },
-  {
-   "code": "2610",
-   "name": "華航",
-   "industry": "航運",
-   "close": 21.65,
-   "pct": 5.61,
-   "value": 19.54,
-   "volRatio": 5.19,
-   "rsi": 63.5,
-   "ma5": 20.73,
-   "ma20": 20.51,
-   "score": 157.3,
-   "why": null
-  },
-  {
-   "code": "2471",
-   "name": "資通",
-   "industry": "資訊服務",
-   "close": 54.6,
-   "pct": 4,
-   "value": 6.39,
-   "volRatio": 47.99,
-   "rsi": 67,
-   "ma5": 51.61,
-   "ma20": 50.89,
-   "score": 154.1,
-   "why": null
-  },
-  {
-   "code": "4755",
-   "name": "三福化",
-   "industry": "化學",
-   "close": 130,
-   "pct": 4.42,
-   "value": 4.65,
-   "volRatio": 7.43,
-   "rsi": 50.5,
-   "ma5": 121,
-   "ma20": 123.53,
-   "score": 153.9,
-   "why": null
-  },
-  {
-   "code": "1476",
-   "name": "儒鴻",
-   "industry": "紡織纖維",
-   "close": 339.5,
-   "pct": 8.64,
-   "value": 19.87,
-   "volRatio": 3.56,
-   "rsi": 66.5,
-   "ma5": 320.9,
-   "ma20": 317.55,
-   "score": 153.4,
+   "code": "6443",
+   "name": "元晶",
+   "industry": "光電",
+   "close": 25.95,
+   "pct": 9.96,
+   "value": 9.99,
+   "volRatio": 5.61,
+   "rsi": 51.5,
+   "ma5": 23.81,
+   "ma20": 25.26,
+   "score": 170.8,
    "why": null
   },
   {
    "code": "1416",
    "name": "廣豐",
    "industry": "其他",
-   "close": 14.9,
-   "pct": 5.3,
-   "value": 2.04,
-   "volRatio": 11.41,
-   "rsi": 76.8,
-   "ma5": 13.83,
-   "ma20": 13.12,
-   "score": 153,
+   "close": 16.35,
+   "pct": 9.73,
+   "value": 2.99,
+   "volRatio": 10.66,
+   "rsi": 83,
+   "ma5": 14.51,
+   "ma20": 13.35,
+   "score": 168,
    "why": null
   },
   {
-   "code": "3019",
-   "name": "亞光",
-   "industry": "光電",
-   "close": 128.5,
-   "pct": 9.83,
-   "value": 10.6,
-   "volRatio": 3.52,
-   "rsi": 42,
-   "ma5": 121.7,
-   "ma20": 131.1,
-   "score": 147.9,
+   "code": "1558",
+   "name": "伸興",
+   "industry": "電機機械",
+   "close": 113,
+   "pct": 9.18,
+   "value": 1.32,
+   "volRatio": 10.79,
+   "rsi": 45,
+   "ma5": 106.1,
+   "ma20": 111.1,
+   "score": 162.7,
    "why": null
   },
   {
-   "code": "2453",
-   "name": "凌群",
-   "industry": "資訊服務",
-   "close": 53.7,
-   "pct": 1.9,
-   "value": 2.05,
-   "volRatio": 12.55,
-   "rsi": 54.7,
-   "ma5": 52.86,
-   "ma20": 52.95,
-   "score": 142.8,
-   "why": null
-  },
-  {
-   "code": "2465",
-   "name": "麗臺",
-   "industry": "電腦及週邊",
-   "close": 119.5,
-   "pct": -4.4,
-   "value": 54.24,
-   "volRatio": 7.53,
-   "rsi": 70.8,
-   "ma5": 114.5,
-   "ma20": 96.28,
-   "score": 142.3,
-   "why": null
-  },
-  {
-   "code": "1786",
-   "name": "科妍",
+   "code": "6446",
+   "name": "藥華藥",
    "industry": "生技醫療",
-   "close": 49.1,
-   "pct": 9.97,
-   "value": 0.68,
-   "volRatio": 3.43,
-   "rsi": 66.9,
-   "ma5": 47.4,
-   "ma20": 42.31,
-   "score": 141.7,
-   "why": null
-  },
-  {
-   "code": "2618",
-   "name": "長榮航",
-   "industry": "航運",
-   "close": 45.1,
-   "pct": 3.09,
-   "value": 28.56,
-   "volRatio": 3.98,
-   "rsi": 63.7,
-   "ma5": 43.68,
-   "ma20": 42.81,
-   "score": 141.7,
-   "why": null
-  },
-  {
-   "code": "1477",
-   "name": "聚陽",
-   "industry": "紡織纖維",
-   "close": 214.5,
-   "pct": 5.41,
-   "value": 9.71,
-   "volRatio": 3.51,
-   "rsi": 64.9,
-   "ma5": 206.7,
-   "ma20": 206.75,
-   "score": 140.2,
-   "why": null
-  },
-  {
-   "code": "1795",
-   "name": "美時",
-   "industry": "生技醫療",
-   "close": 168,
-   "pct": 5.66,
-   "value": 5.89,
-   "volRatio": 3.74,
-   "rsi": 33.8,
-   "ma5": 164.1,
-   "ma20": 174.07,
-   "score": 134.6,
-   "why": null
-  },
-  {
-   "code": "2548",
-   "name": "華固",
-   "industry": "建材營造",
-   "close": 93.4,
-   "pct": 3.43,
-   "value": 3.19,
-   "volRatio": 3.79,
-   "rsi": 61.5,
-   "ma5": 91.04,
-   "ma20": 91.54,
-   "score": 131.6,
-   "why": null
-  },
-  {
-   "code": "2501",
-   "name": "國建",
-   "industry": "建材營造",
-   "close": 21.05,
-   "pct": 4.47,
-   "value": 1.43,
-   "volRatio": 3.75,
-   "rsi": 59.2,
-   "ma5": 20.32,
-   "ma20": 20.38,
-   "score": 131,
-   "why": null
-  },
-  {
-   "code": "6472",
-   "name": "保瑞",
-   "industry": "生技醫療",
-   "close": 389,
-   "pct": 4.85,
-   "value": 6.22,
-   "volRatio": 2.91,
-   "rsi": 29.7,
-   "ma5": 374.4,
-   "ma20": 404.13,
-   "score": 125.8,
+   "close": 1270,
+   "pct": 7.17,
+   "value": 87.27,
+   "volRatio": 3.47,
+   "rsi": 56.4,
+   "ma5": 1224,
+   "ma20": 1199.75,
+   "score": 154.7,
    "why": null
   },
   {
    "code": "3576",
    "name": "聯合再生",
    "industry": "光電",
-   "close": 16.4,
-   "pct": 2.82,
-   "value": 6.38,
-   "volRatio": 3.44,
-   "rsi": 26.8,
-   "ma5": 16.13,
-   "ma20": 17.29,
-   "score": 124,
+   "close": 17.8,
+   "pct": 8.54,
+   "value": 8.35,
+   "volRatio": 4.19,
+   "rsi": 48.6,
+   "ma5": 16.42,
+   "ma20": 17.25,
+   "score": 154.4,
    "why": null
   },
   {
-   "code": "6443",
-   "name": "元晶",
-   "industry": "光電",
-   "close": 23.6,
-   "pct": 2.83,
-   "value": 5.6,
-   "volRatio": 3.45,
-   "rsi": 31.5,
-   "ma5": 23.33,
-   "ma20": 25.36,
-   "score": 123.6,
+   "code": "6112",
+   "name": "邁達特",
+   "industry": "資訊服務",
+   "close": 51.4,
+   "pct": 7.76,
+   "value": 6.48,
+   "volRatio": 4.42,
+   "rsi": 63.6,
+   "ma5": 49.06,
+   "ma20": 47.97,
+   "score": 152.8,
    "why": null
   },
   {
    "code": "0050",
    "name": "元大台灣50",
    "industry": "其他",
-   "close": 97.15,
-   "pct": -2.7,
-   "value": 477.48,
-   "volRatio": 2.99,
-   "rsi": 13.9,
-   "ma5": 101.33,
-   "ma20": 108.26,
-   "score": 122.6,
+   "close": 92.5,
+   "pct": -4.79,
+   "value": 858.97,
+   "volRatio": 5.18,
+   "rsi": 13.6,
+   "ma5": 98.84,
+   "ma20": 107.06,
+   "score": 141.8,
    "why": null
   },
   {
-   "code": "3023",
-   "name": "信邦",
-   "industry": "電子零組件",
-   "close": 257,
-   "pct": 3.84,
-   "value": 9.8,
-   "volRatio": 2.63,
-   "rsi": 22.4,
-   "ma5": 247.9,
-   "ma20": 292.1,
-   "score": 122.5,
+   "code": "4967",
+   "name": "十銓",
+   "industry": "半導體",
+   "close": 268,
+   "pct": 2.49,
+   "value": 30.24,
+   "volRatio": 3.79,
+   "rsi": 57,
+   "ma5": 265.9,
+   "ma20": 264.27,
+   "score": 138.6,
    "why": null
   },
   {
-   "code": "6757",
-   "name": "台灣虎航",
-   "industry": "航運",
-   "close": 55.4,
-   "pct": 2.21,
-   "value": 1.5,
-   "volRatio": 3.5,
-   "rsi": 57.7,
-   "ma5": 54.02,
-   "ma20": 53.25,
-   "score": 122.4,
+   "code": "6873",
+   "name": "泓德能源",
+   "industry": "綠能環保",
+   "close": 49.5,
+   "pct": 4.76,
+   "value": 2.12,
+   "volRatio": 5.01,
+   "rsi": 28.5,
+   "ma5": 46.31,
+   "ma20": 57.02,
+   "score": 137.6,
    "why": null
   },
   {
-   "code": "2406",
-   "name": "國碩",
-   "industry": "光電",
-   "close": 29.3,
-   "pct": 2.45,
-   "value": 5.25,
-   "volRatio": 3.2,
-   "rsi": 47,
-   "ma5": 28.36,
-   "ma20": 29.43,
-   "score": 120.1,
+   "code": "6214",
+   "name": "精誠",
+   "industry": "資訊服務",
+   "close": 192,
+   "pct": 8.78,
+   "value": 6.69,
+   "volRatio": 2.6,
+   "rsi": 45.5,
+   "ma5": 190.9,
+   "ma20": 195.63,
+   "score": 135.4,
    "why": null
   },
   {
-   "code": "2412",
-   "name": "中華電",
-   "industry": "通信網路",
-   "close": 161.5,
-   "pct": 0,
-   "value": 42.4,
-   "volRatio": 2.23,
-   "rsi": 84.2,
-   "ma5": 160.3,
-   "ma20": 154.05,
-   "score": 120.1,
-   "why": null
-  },
-  {
-   "code": "2891",
-   "name": "中信金",
-   "industry": "金融保險",
-   "close": 74.9,
-   "pct": 2.32,
-   "value": 40.54,
-   "volRatio": 1.36,
-   "rsi": 62.2,
-   "ma5": 74.62,
-   "ma20": 72.8,
-   "score": 119.9,
-   "why": null
-  },
-  {
-   "code": "6919",
-   "name": "康霈*",
-   "industry": "生技醫療",
-   "close": 66.6,
-   "pct": 9.9,
-   "value": 2.05,
-   "volRatio": 0.73,
-   "rsi": 31.1,
-   "ma5": 64.28,
-   "ma20": 72.05,
-   "score": 118.7,
+   "code": "1476",
+   "name": "儒鴻",
+   "industry": "紡織纖維",
+   "close": 346.5,
+   "pct": 2.06,
+   "value": 22.56,
+   "volRatio": 3.49,
+   "rsi": 65.1,
+   "ma5": 326.1,
+   "ma20": 320.38,
+   "score": 133.6,
    "why": null
   },
   {
    "code": "2330",
    "name": "台積電",
    "industry": "半導體",
-   "close": 2240,
-   "pct": -0.88,
-   "value": 1018.27,
-   "volRatio": 1.4,
-   "rsi": 15.3,
-   "ma5": 2299,
-   "ma20": 2423.25,
-   "score": 118.6,
+   "close": 2135,
+   "pct": -4.69,
+   "value": 2318.93,
+   "volRatio": 3.34,
+   "rsi": 13.3,
+   "ma5": 2252,
+   "ma20": 2400.75,
+   "score": 131.4,
    "why": null
   },
   {
-   "code": "6830",
-   "name": "汎銓",
-   "industry": "其他電子",
-   "close": 454,
-   "pct": -2.37,
-   "value": 19.02,
-   "volRatio": 4,
-   "rsi": 40.3,
-   "ma5": 450.6,
-   "ma20": 488.27,
-   "score": 117.7,
+   "code": "2471",
+   "name": "資通",
+   "industry": "資訊服務",
+   "close": 51.4,
+   "pct": -5.86,
+   "value": 3.29,
+   "volRatio": 7.99,
+   "rsi": 52.8,
+   "ma5": 51.89,
+   "ma20": 50.91,
+   "score": 130.2,
+   "why": null
+  },
+  {
+   "code": "1786",
+   "name": "科妍",
+   "industry": "生技醫療",
+   "close": 47.05,
+   "pct": -4.18,
+   "value": 2.99,
+   "volRatio": 12.93,
+   "rsi": 63,
+   "ma5": 47.3,
+   "ma20": 42.61,
+   "score": 129.8,
+   "why": null
+  },
+  {
+   "code": "6472",
+   "name": "保瑞",
+   "industry": "生技醫療",
+   "close": 399.5,
+   "pct": 2.7,
+   "value": 9.26,
+   "volRatio": 3.91,
+   "rsi": 37.4,
+   "ma5": 378.5,
+   "ma20": 403.27,
+   "score": 129,
+   "why": null
+  },
+  {
+   "code": "8271",
+   "name": "宇瞻",
+   "industry": "半導體",
+   "close": 167,
+   "pct": 4.7,
+   "value": 6.07,
+   "volRatio": 3.16,
+   "rsi": 37.8,
+   "ma5": 167.4,
+   "ma20": 182.55,
+   "score": 127.2,
+   "why": null
+  },
+  {
+   "code": "6152",
+   "name": "百一",
+   "industry": "通信網路",
+   "close": 18.7,
+   "pct": 10,
+   "value": 1.41,
+   "volRatio": 1.19,
+   "rsi": 54.5,
+   "ma5": 18.04,
+   "ma20": 18.54,
+   "score": 127,
+   "why": null
+  },
+  {
+   "code": "2453",
+   "name": "凌群",
+   "industry": "資訊服務",
+   "close": 53.4,
+   "pct": -0.56,
+   "value": 1.2,
+   "volRatio": 5.03,
+   "rsi": 56.9,
+   "ma5": 53,
+   "ma20": 52.96,
+   "score": 125.4,
+   "why": null
+  },
+  {
+   "code": "3019",
+   "name": "亞光",
+   "industry": "光電",
+   "close": 123.5,
+   "pct": -3.89,
+   "value": 16.24,
+   "volRatio": 5.29,
+   "rsi": 40.8,
+   "ma5": 121.6,
+   "ma20": 130.22,
+   "score": 125.4,
    "why": null
   },
   {
    "code": "2468",
    "name": "華經",
    "industry": "資訊服務",
-   "close": 59,
-   "pct": -2.96,
-   "value": 31.82,
-   "volRatio": 3.09,
-   "rsi": 68.1,
-   "ma5": 57.36,
-   "ma20": 50.53,
-   "score": 116.9,
+   "close": 60.2,
+   "pct": 2.03,
+   "value": 26.46,
+   "volRatio": 2.33,
+   "rsi": 68.8,
+   "ma5": 58.76,
+   "ma20": 51.43,
+   "score": 125,
    "why": null
   },
   {
-   "code": "4977",
-   "name": "眾達-KY",
+   "code": "2412",
+   "name": "中華電",
    "industry": "通信網路",
-   "close": 175.5,
-   "pct": -4.36,
-   "value": 43.43,
-   "volRatio": 3.65,
-   "rsi": 44.1,
-   "ma5": 176.4,
-   "ma20": 177.8,
-   "score": 116.6,
+   "close": 163.5,
+   "pct": 1.24,
+   "value": 45.86,
+   "volRatio": 2.27,
+   "rsi": 82.4,
+   "ma5": 161,
+   "ma20": 154.95,
+   "score": 124.5,
    "why": null
   },
   {
-   "code": "7750",
-   "name": "新代",
-   "industry": "電機機械",
-   "close": 1485,
-   "pct": -0.34,
-   "value": 12.07,
-   "volRatio": 3.09,
-   "rsi": 32.6,
-   "ma5": 1700,
-   "ma20": 1856.5,
-   "score": 114.5,
+   "code": "6782",
+   "name": "視陽",
+   "industry": "生技醫療",
+   "close": 274.5,
+   "pct": 3.39,
+   "value": 3.65,
+   "volRatio": 2.61,
+   "rsi": 66.4,
+   "ma5": 263.1,
+   "ma20": 257.3,
+   "score": 122.7,
    "why": null
-  }
- ],
- "reversal": [
+  },
   {
-   "code": "2453",
-   "name": "凌群",
-   "industry": "資訊服務",
-   "close": 53.7,
-   "pct": 1.9,
-   "value": 2.05,
-   "volRatio": 12.55,
-   "rsi": 54.7,
-   "ma5": 52.86,
-   "ma20": 52.95,
-   "score": 141.9,
-   "why": [
-    "收盤站上 5MA",
-    "量能 12.6 倍",
-    "RSI 48→55",
-    "同步突破 20MA"
-   ]
+   "code": "2454",
+   "name": "聯發科",
+   "industry": "半導體",
+   "close": 3390,
+   "pct": -2.02,
+   "value": 769.7,
+   "volRatio": 2.29,
+   "rsi": 27,
+   "ma5": 3642,
+   "ma20": 4121.75,
+   "score": 121.1,
+   "why": null
+  },
+  {
+   "code": "4169",
+   "name": "泰宗",
+   "industry": "生技醫療",
+   "close": 114.5,
+   "pct": -8.03,
+   "value": 1.2,
+   "volRatio": 7.06,
+   "rsi": 23.7,
+   "ma5": 129.3,
+   "ma20": 142.2,
+   "score": 119.8,
+   "why": null
+  },
+  {
+   "code": "6919",
+   "name": "康霈*",
+   "industry": "生技醫療",
+   "close": 64,
+   "pct": -3.9,
+   "value": 12.37,
+   "volRatio": 4.45,
+   "rsi": 31.5,
+   "ma5": 63.76,
+   "ma20": 71.32,
+   "score": 117.5,
+   "why": null
+  },
+  {
+   "code": "2530",
+   "name": "華建",
+   "industry": "建材營造",
+   "close": 18.15,
+   "pct": -5.47,
+   "value": 0.69,
+   "volRatio": 7.75,
+   "rsi": 9.2,
+   "ma5": 18.91,
+   "ma20": 19.86,
+   "score": 117.4,
+   "why": null
+  },
+  {
+   "code": "2382",
+   "name": "廣達",
+   "industry": "電腦及週邊",
+   "close": 290.5,
+   "pct": -3.17,
+   "value": 106.36,
+   "volRatio": 3.16,
+   "rsi": 34,
+   "ma5": 304.5,
+   "ma20": 318.43,
+   "score": 116.5,
+   "why": null
   },
   {
    "code": "1795",
    "name": "美時",
    "industry": "生技醫療",
-   "close": 168,
-   "pct": 5.66,
-   "value": 5.89,
-   "volRatio": 3.74,
-   "rsi": 33.8,
-   "ma5": 164.1,
-   "ma20": 174.07,
-   "score": 61.8,
-   "why": [
-    "收盤站上 5MA",
-    "量能 3.7 倍",
-    "RSI 18→34",
-    "20MA 尚未突破"
-   ]
+   "close": 166,
+   "pct": -1.19,
+   "value": 6.71,
+   "volRatio": 3.91,
+   "rsi": 32.1,
+   "ma5": 163.8,
+   "ma20": 173.57,
+   "score": 116,
+   "why": null
   },
   {
-   "code": "2548",
-   "name": "華固",
-   "industry": "建材營造",
-   "close": 93.4,
-   "pct": 3.43,
-   "value": 3.19,
-   "volRatio": 3.79,
-   "rsi": 61.5,
-   "ma5": 91.04,
-   "ma20": 91.54,
-   "score": 59.5,
-   "why": [
-    "收盤站上 5MA",
-    "量能 3.8 倍",
-    "RSI 44→62",
-    "同步突破 20MA"
-   ]
+   "code": "2406",
+   "name": "國碩",
+   "industry": "光電",
+   "close": 29.2,
+   "pct": -0.34,
+   "value": 6.18,
+   "volRatio": 3.59,
+   "rsi": 51.6,
+   "ma5": 28.48,
+   "ma20": 29.32,
+   "score": 115.6,
+   "why": null
   },
   {
-   "code": "1477",
-   "name": "聚陽",
-   "industry": "紡織纖維",
-   "close": 214.5,
-   "pct": 5.41,
-   "value": 9.71,
-   "volRatio": 3.51,
-   "rsi": 64.9,
-   "ma5": 206.7,
-   "ma20": 206.75,
-   "score": 58.8,
-   "why": [
-    "收盤站上 5MA",
-    "量能 3.5 倍",
-    "RSI 43→65",
-    "同步突破 20MA"
-   ]
-  },
-  {
-   "code": "2501",
-   "name": "國建",
-   "industry": "建材營造",
-   "close": 21.05,
-   "pct": 4.47,
-   "value": 1.43,
-   "volRatio": 3.75,
-   "rsi": 59.2,
-   "ma5": 20.32,
-   "ma20": 20.38,
-   "score": 54.8,
-   "why": [
-    "收盤站上 5MA",
-    "量能 3.8 倍",
-    "RSI 46→59",
-    "同步突破 20MA"
-   ]
-  },
-  {
-   "code": "6472",
-   "name": "保瑞",
-   "industry": "生技醫療",
-   "close": 389,
-   "pct": 4.85,
-   "value": 6.22,
-   "volRatio": 2.91,
-   "rsi": 29.7,
-   "ma5": 374.4,
-   "ma20": 404.13,
-   "score": 50.9,
-   "why": [
-    "收盤站上 5MA",
-    "量能 2.9 倍",
-    "RSI 17→30",
-    "20MA 尚未突破"
-   ]
-  },
-  {
-   "code": "3023",
-   "name": "信邦",
+   "code": "2308",
+   "name": "台達電",
    "industry": "電子零組件",
-   "close": 257,
-   "pct": 3.84,
-   "value": 9.8,
-   "volRatio": 2.63,
-   "rsi": 22.4,
-   "ma5": 247.9,
-   "ma20": 292.1,
-   "score": 44.4,
+   "close": 1055,
+   "pct": -6.64,
+   "value": 358.79,
+   "volRatio": 2.36,
+   "rsi": 11.9,
+   "ma5": 1206,
+   "ma20": 1550.75,
+   "score": 115.4,
+   "why": null
+  }
+ ],
+ "reversal": [
+  {
+   "code": "1558",
+   "name": "伸興",
+   "industry": "電機機械",
+   "close": 113,
+   "pct": 9.18,
+   "value": 1.32,
+   "volRatio": 10.79,
+   "rsi": 45,
+   "ma5": 106.1,
+   "ma20": 111.1,
+   "score": 138.8,
+   "why": [
+    "收盤站上 5MA",
+    "量能 10.8 倍",
+    "RSI 19→45",
+    "同步突破 20MA"
+   ]
+  },
+  {
+   "code": "6214",
+   "name": "精誠",
+   "industry": "資訊服務",
+   "close": 192,
+   "pct": 8.78,
+   "value": 6.69,
+   "volRatio": 2.6,
+   "rsi": 45.5,
+   "ma5": 190.9,
+   "ma20": 195.63,
+   "score": 49.7,
    "why": [
     "收盤站上 5MA",
     "量能 2.6 倍",
-    "RSI 16→22",
+    "RSI 26→46",
+    "20MA 尚未突破"
+   ]
+  },
+  {
+   "code": "1215",
+   "name": "卜蜂",
+   "industry": "食品",
+   "close": 104,
+   "pct": 0.97,
+   "value": 1.8,
+   "volRatio": 2.64,
+   "rsi": 40,
+   "ma5": 103.6,
+   "ma20": 105.63,
+   "score": 43.7,
+   "why": [
+    "收盤站上 5MA",
+    "量能 2.6 倍",
+    "RSI 32→40",
     "20MA 尚未突破"
    ]
   }
  ],
  "sectors": [
   {
-   "name": "紡織纖維",
-   "count": 4,
-   "upRatio": 75,
-   "avgPct": 2.94,
-   "valueShare": 0.4,
-   "score": 53.9,
+   "name": "資訊服務",
+   "count": 7,
+   "upRatio": 42.9,
+   "avgPct": 1.67,
+   "valueShare": 0.5,
+   "score": 31,
    "leaders": [
     {
-     "code": "1476",
-     "name": "儒鴻",
-     "pct": 8.64
+     "code": "2468",
+     "name": "華經",
+     "pct": 2.03
     },
     {
-     "code": "1477",
-     "name": "聚陽",
-     "pct": 5.41
+     "code": "3029",
+     "name": "零壹",
+     "pct": -0.44
     },
     {
-     "code": "1402",
-     "name": "遠東新",
-     "pct": 0.36
+     "code": "6214",
+     "name": "精誠",
+     "pct": 8.78
     }
    ]
   },
   {
    "name": "運動休閒",
-   "count": 7,
-   "upRatio": 85.7,
-   "avgPct": 1.98,
+   "count": 10,
+   "upRatio": 40,
+   "avgPct": -1.09,
    "valueShare": 0.1,
-   "score": 50.3,
+   "score": 7.4,
    "leaders": [
     {
      "code": "9904",
      "name": "寶成",
-     "pct": 2.16
+     "pct": -1.15
     },
     {
      "code": "9921",
      "name": "巨大",
-     "pct": 2.06
+     "pct": 0.45
     },
     {
      "code": "9914",
      "name": "美利達",
-     "pct": 2.11
-    }
-   ]
-  },
-  {
-   "name": "橡膠",
-   "count": 3,
-   "upRatio": 66.7,
-   "avgPct": 0.39,
-   "valueShare": 0,
-   "score": 29.9,
-   "leaders": [
-    {
-     "code": "2105",
-     "name": "正新",
-     "pct": 0.66
-    },
-    {
-     "code": "2103",
-     "name": "台橡",
-     "pct": -0.39
-    },
-    {
-     "code": "2101",
-     "name": "南港",
-     "pct": 0.91
+     "pct": 0.96
     }
    ]
   },
   {
    "name": "生技醫療",
-   "count": 11,
-   "upRatio": 54.5,
-   "avgPct": 0.78,
-   "valueShare": 0.8,
-   "score": 28.9,
+   "count": 14,
+   "upRatio": 28.6,
+   "avgPct": -1.24,
+   "valueShare": 1.2,
+   "score": 2.6,
    "leaders": [
     {
      "code": "6446",
      "name": "藥華藥",
-     "pct": -5.2
+     "pct": 7.17
+    },
+    {
+     "code": "6919",
+     "name": "康霈*",
+     "pct": -3.9
     },
     {
      "code": "6472",
      "name": "保瑞",
-     "pct": 4.85
-    },
-    {
-     "code": "1795",
-     "name": "美時",
-     "pct": 5.66
-    }
-   ]
-  },
-  {
-   "name": "金融保險",
-   "count": 22,
-   "upRatio": 36.4,
-   "avgPct": -0.18,
-   "valueShare": 2.8,
-   "score": 15.9,
-   "leaders": [
-    {
-     "code": "2891",
-     "name": "中信金",
-     "pct": 2.32
-    },
-    {
-     "code": "2882",
-     "name": "國泰金",
-     "pct": 0.9
-    },
-    {
-     "code": "2881",
-     "name": "富邦金",
-     "pct": 0.65
-    }
-   ]
-  },
-  {
-   "name": "建材營造",
-   "count": 6,
-   "upRatio": 50,
-   "avgPct": -1.25,
-   "valueShare": 0.1,
-   "score": 10.1,
-   "leaders": [
-    {
-     "code": "2548",
-     "name": "華固",
-     "pct": 3.43
-    },
-    {
-     "code": "2542",
-     "name": "興富發",
-     "pct": 1.05
-    },
-    {
-     "code": "2501",
-     "name": "國建",
-     "pct": 4.47
-    }
-   ]
-  },
-  {
-   "name": "航運",
-   "count": 14,
-   "upRatio": 28.6,
-   "avgPct": -0.85,
-   "valueShare": 1.4,
-   "score": 6.1,
-   "leaders": [
-    {
-     "code": "2603",
-     "name": "長榮",
-     "pct": -3.36
-    },
-    {
-     "code": "2618",
-     "name": "長榮航",
-     "pct": 3.09
-    },
-    {
-     "code": "2610",
-     "name": "華航",
-     "pct": 5.61
-    }
-   ]
-  },
-  {
-   "name": "其他",
-   "count": 17,
-   "upRatio": 29.4,
-   "avgPct": -1.67,
-   "valueShare": 6.5,
-   "score": 4.9,
-   "leaders": [
-    {
-     "code": "0050",
-     "name": "元大台灣50",
-     "pct": -2.7
-    },
-    {
-     "code": "0056",
-     "name": "元大高股息",
-     "pct": -2.83
-    },
-    {
-     "code": "0052",
-     "name": "富邦科技",
-     "pct": -3.2
-    }
-   ]
-  },
-  {
-   "name": "資訊服務",
-   "count": 7,
-   "upRatio": 28.6,
-   "avgPct": -1.27,
-   "valueShare": 0.6,
-   "score": 1.8,
-   "leaders": [
-    {
-     "code": "2468",
-     "name": "華經",
-     "pct": -2.96
-    },
-    {
-     "code": "2471",
-     "name": "資通",
-     "pct": 4
-    },
-    {
-     "code": "3029",
-     "name": "零壹",
-     "pct": -3
-    }
-   ]
-  },
-  {
-   "name": "食品",
-   "count": 4,
-   "upRatio": 0,
-   "avgPct": -0.17,
-   "valueShare": 0.1,
-   "score": -1.2,
-   "leaders": [
-    {
-     "code": "1216",
-     "name": "統一",
-     "pct": 0
-    },
-    {
-     "code": "1215",
-     "name": "卜蜂",
-     "pct": -0.48
-    },
-    {
-     "code": "1210",
-     "name": "大成",
-     "pct": -0.2
-    }
-   ]
-  },
-  {
-   "name": "汽車",
-   "count": 11,
-   "upRatio": 36.4,
-   "avgPct": -2.02,
-   "valueShare": 0.1,
-   "score": -1.5,
-   "leaders": [
-    {
-     "code": "2254",
-     "name": "巨鎧精密-創",
-     "pct": 1.4
-    },
-    {
-     "code": "2207",
-     "name": "和泰車",
-     "pct": 0.56
-    },
-    {
-     "code": "1319",
-     "name": "東陽",
-     "pct": 2.24
-    }
-   ]
-  },
-  {
-   "name": "綠能環保",
-   "count": 5,
-   "upRatio": 20,
-   "avgPct": -2.61,
-   "valueShare": 0.2,
-   "score": -12.7,
-   "leaders": [
-    {
-     "code": "7610",
-     "name": "聯友金屬-創",
-     "pct": -6.85
-    },
-    {
-     "code": "6944",
-     "name": "兆聯實業",
-     "pct": -4.96
-    },
-    {
-     "code": "8422",
-     "name": "可寧衛*",
-     "pct": -2.51
-    }
-   ]
-  },
-  {
-   "name": "半導體",
-   "count": 70,
-   "upRatio": 0,
-   "avgPct": -7.16,
-   "valueShare": 36.2,
-   "score": -21,
-   "leaders": [
-    {
-     "code": "2330",
-     "name": "台積電",
-     "pct": -0.88
-    },
-    {
-     "code": "2454",
-     "name": "聯發科",
-     "pct": -6.86
-    },
-    {
-     "code": "3443",
-     "name": "創意",
-     "pct": -9.98
-    }
-   ]
-  },
-  {
-   "name": "鋼鐵",
-   "count": 9,
-   "upRatio": 0,
-   "avgPct": -2.75,
-   "valueShare": 0.4,
-   "score": -21.6,
-   "leaders": [
-    {
-     "code": "2002",
-     "name": "中鋼",
-     "pct": -1.04
-    },
-    {
-     "code": "2033",
-     "name": "佳大",
-     "pct": -3.11
-    },
-    {
-     "code": "2027",
-     "name": "大成鋼",
-     "pct": -1.95
-    }
-   ]
-  },
-  {
-   "name": "電腦及週邊",
-   "count": 34,
-   "upRatio": 5.9,
-   "avgPct": -4.33,
-   "valueShare": 6.9,
-   "score": -25.3,
-   "leaders": [
-    {
-     "code": "3017",
-     "name": "奇鋐",
-     "pct": -9.04
-    },
-    {
-     "code": "6669",
-     "name": "緯穎",
-     "pct": -7.56
-    },
-    {
-     "code": "3231",
-     "name": "緯創",
-     "pct": -4.26
+     "pct": 2.7
     }
    ]
   },
   {
    "name": "數位雲端",
-   "count": 3,
-   "upRatio": 0,
-   "avgPct": -3.2,
+   "count": 5,
+   "upRatio": 40,
+   "avgPct": -1.74,
    "valueShare": 0.1,
-   "score": -25.5,
+   "score": 2.1,
    "leaders": [
     {
      "code": "6689",
      "name": "伊雲谷",
-     "pct": -6.82
+     "pct": 0.7
     },
     {
      "code": "8454",
      "name": "富邦媒",
-     "pct": -2.35
+     "pct": -2.19
     },
     {
-     "code": "7765",
-     "name": "中華資安",
+     "code": "6165",
+     "name": "浪凡",
+     "pct": -4.28
+    }
+   ]
+  },
+  {
+   "name": "半導體",
+   "count": 76,
+   "upRatio": 2.6,
+   "avgPct": -5.61,
+   "valueShare": 42.8,
+   "score": -1.1,
+   "leaders": [
+    {
+     "code": "2330",
+     "name": "台積電",
+     "pct": -4.69
+    },
+    {
+     "code": "2454",
+     "name": "聯發科",
+     "pct": -2.02
+    },
+    {
+     "code": "3443",
+     "name": "創意",
+     "pct": -3.12
+    }
+   ]
+  },
+  {
+   "name": "紡織纖維",
+   "count": 6,
+   "upRatio": 16.7,
+   "avgPct": -1.69,
+   "valueShare": 0.3,
+   "score": -6.5,
+   "leaders": [
+    {
+     "code": "1476",
+     "name": "儒鴻",
+     "pct": 2.06
+    },
+    {
+     "code": "1477",
+     "name": "聚陽",
+     "pct": -0.7
+    },
+    {
+     "code": "1402",
+     "name": "遠東新",
+     "pct": -1.42
+    }
+   ]
+  },
+  {
+   "name": "食品",
+   "count": 7,
+   "upRatio": 14.3,
+   "avgPct": -1.63,
+   "valueShare": 0.2,
+   "score": -7.1,
+   "leaders": [
+    {
+     "code": "1216",
+     "name": "統一",
+     "pct": -5.07
+    },
+    {
+     "code": "1215",
+     "name": "卜蜂",
+     "pct": 0.97
+    },
+    {
+     "code": "1229",
+     "name": "聯華",
+     "pct": -1.41
+    }
+   ]
+  },
+  {
+   "name": "其他",
+   "count": 19,
+   "upRatio": 5.3,
+   "avgPct": -2.67,
+   "valueShare": 8.8,
+   "score": -10.4,
+   "leaders": [
+    {
+     "code": "0050",
+     "name": "元大台灣50",
+     "pct": -4.79
+    },
+    {
+     "code": "0056",
+     "name": "元大高股息",
+     "pct": -3.18
+    },
+    {
+     "code": "0052",
+     "name": "富邦科技",
+     "pct": -4.92
+    }
+   ]
+  },
+  {
+   "name": "綠能環保",
+   "count": 7,
+   "upRatio": 14.3,
+   "avgPct": -2.66,
+   "valueShare": 0.2,
+   "score": -15.4,
+   "leaders": [
+    {
+     "code": "7610",
+     "name": "聯友金屬-創",
      "pct": -0.43
+    },
+    {
+     "code": "6944",
+     "name": "兆聯實業",
+     "pct": -10
+    },
+    {
+     "code": "8422",
+     "name": "可寧衛*",
+     "pct": -2.36
+    }
+   ]
+  },
+  {
+   "name": "金融保險",
+   "count": 26,
+   "upRatio": 0,
+   "avgPct": -2.76,
+   "valueShare": 3.6,
+   "score": -18.4,
+   "leaders": [
+    {
+     "code": "2881",
+     "name": "富邦金",
+     "pct": -4.82
+    },
+    {
+     "code": "2887",
+     "name": "台新新光金",
+     "pct": -4.11
+    },
+    {
+     "code": "2882",
+     "name": "國泰金",
+     "pct": -5.36
+    }
+   ]
+  },
+  {
+   "name": "貿易百貨",
+   "count": 3,
+   "upRatio": 0,
+   "avgPct": -2.48,
+   "valueShare": 0.1,
+   "score": -19.7,
+   "leaders": [
+    {
+     "code": "2912",
+     "name": "統一超",
+     "pct": -1.86
+    },
+    {
+     "code": "2915",
+     "name": "潤泰全",
+     "pct": -3.96
+    },
+    {
+     "code": "2903",
+     "name": "遠百",
+     "pct": -1.61
+    }
+   ]
+  },
+  {
+   "name": "觀光餐旅",
+   "count": 5,
+   "upRatio": 0,
+   "avgPct": -2.53,
+   "valueShare": 0,
+   "score": -20.2,
+   "leaders": [
+    {
+     "code": "2727",
+     "name": "王品",
+     "pct": -7.41
+    },
+    {
+     "code": "2731",
+     "name": "雄獅",
+     "pct": -1.81
+    },
+    {
+     "code": "2707",
+     "name": "晶華",
+     "pct": -0.57
+    }
+   ]
+  },
+  {
+   "name": "建材營造",
+   "count": 15,
+   "upRatio": 6.7,
+   "avgPct": -3.03,
+   "valueShare": 0.1,
+   "score": -21.4,
+   "leaders": [
+    {
+     "code": "2542",
+     "name": "興富發",
+     "pct": -2.33
+    },
+    {
+     "code": "2548",
+     "name": "華固",
+     "pct": -2.03
+    },
+    {
+     "code": "5534",
+     "name": "長虹",
+     "pct": -2.24
+    }
+   ]
+  },
+  {
+   "name": "汽車",
+   "count": 13,
+   "upRatio": 7.7,
+   "avgPct": -3.24,
+   "valueShare": 0.2,
+   "score": -22.7,
+   "leaders": [
+    {
+     "code": "2254",
+     "name": "巨鎧精密-創",
+     "pct": 0.92
+    },
+    {
+     "code": "1319",
+     "name": "東陽",
+     "pct": -2.7
+    },
+    {
+     "code": "2207",
+     "name": "和泰車",
+     "pct": -1.68
+    }
+   ]
+  },
+  {
+   "name": "光電",
+   "count": 41,
+   "upRatio": 9.8,
+   "avgPct": -4.06,
+   "valueShare": 4.8,
+   "score": -23.7,
+   "leaders": [
+    {
+     "code": "3008",
+     "name": "大立光",
+     "pct": -0.99
+    },
+    {
+     "code": "3481",
+     "name": "群創",
+     "pct": -5.13
+    },
+    {
+     "code": "2409",
+     "name": "友達",
+     "pct": -2.57
+    }
+   ]
+  },
+  {
+   "name": "通信網路",
+   "count": 23,
+   "upRatio": 13,
+   "avgPct": -3.93,
+   "valueShare": 2.4,
+   "score": -23.8,
+   "leaders": [
+    {
+     "code": "2345",
+     "name": "智邦",
+     "pct": -7.25
+    },
+    {
+     "code": "2412",
+     "name": "中華電",
+     "pct": 1.24
+    },
+    {
+     "code": "4977",
+     "name": "眾達-KY",
+     "pct": -5.98
     }
    ]
   },
   {
    "name": "塑膠",
    "count": 6,
-   "upRatio": 16.7,
-   "avgPct": -4.52,
-   "valueShare": 3.2,
-   "score": -26.3,
+   "upRatio": 0,
+   "avgPct": -3.44,
+   "valueShare": 2.8,
+   "score": -24.7,
    "leaders": [
     {
      "code": "1303",
      "name": "南亞",
-     "pct": -9.95
+     "pct": -3.82
     },
     {
      "code": "1301",
      "name": "台塑",
-     "pct": -5.79
+     "pct": -3.69
     },
     {
      "code": "1326",
      "name": "台化",
-     "pct": -6.07
+     "pct": -3.54
     }
    ]
   },
   {
-   "name": "化學",
-   "count": 19,
-   "upRatio": 5.3,
-   "avgPct": -4.14,
-   "valueShare": 0.5,
-   "score": -30.5,
-   "leaders": [
-    {
-     "code": "1709",
-     "name": "和益",
-     "pct": -5.37
-    },
-    {
-     "code": "4755",
-     "name": "三福化",
-     "pct": 4.42
-    },
-    {
-     "code": "4720",
-     "name": "德淵",
-     "pct": -9.91
-    }
-   ]
-  },
-  {
-   "name": "電器電纜",
-   "count": 3,
+   "name": "鋼鐵",
+   "count": 13,
    "upRatio": 0,
-   "avgPct": -3.85,
-   "valueShare": 0.2,
-   "score": -30.6,
+   "avgPct": -3.33,
+   "valueShare": 0.3,
+   "score": -26.3,
    "leaders": [
     {
-     "code": "1605",
-     "name": "華新",
-     "pct": -5.37
+     "code": "2002",
+     "name": "中鋼",
+     "pct": -2.11
     },
     {
-     "code": "1609",
-     "name": "大亞",
-     "pct": -4.13
+     "code": "2027",
+     "name": "大成鋼",
+     "pct": -4.29
     },
     {
-     "code": "1608",
-     "name": "華榮",
-     "pct": -2.05
-    }
-   ]
-  },
-  {
-   "name": "電子通路",
-   "count": 11,
-   "upRatio": 0,
-   "avgPct": -4.49,
-   "valueShare": 0.6,
-   "score": -35.4,
-   "leaders": [
-    {
-     "code": "3702",
-     "name": "大聯大",
-     "pct": -7.53
-    },
-    {
-     "code": "3036",
-     "name": "文曄",
-     "pct": -4.65
-    },
-    {
-     "code": "5434",
-     "name": "崇越",
-     "pct": -6.38
-    }
-   ]
-  },
-  {
-   "name": "光電",
-   "count": 33,
-   "upRatio": 12.1,
-   "avgPct": -5.8,
-   "valueShare": 5.3,
-   "score": -36.3,
-   "leaders": [
-    {
-     "code": "3008",
-     "name": "大立光",
-     "pct": -9.68
-    },
-    {
-     "code": "3406",
-     "name": "玉晶光",
-     "pct": -9.9
-    },
-    {
-     "code": "3481",
-     "name": "群創",
-     "pct": -7.09
+     "code": "2033",
+     "name": "佳大",
+     "pct": -3.88
     }
    ]
   },
   {
    "name": "電子零組件",
-   "count": 63,
-   "upRatio": 1.6,
-   "avgPct": -7.72,
-   "valueShare": 22.7,
-   "score": -38.5,
+   "count": 68,
+   "upRatio": 5.9,
+   "avgPct": -5.77,
+   "valueShare": 17.4,
+   "score": -26.4,
    "leaders": [
-    {
-     "code": "3037",
-     "name": "欣興",
-     "pct": -9.91
-    },
-    {
-     "code": "2327",
-     "name": "國巨*",
-     "pct": -9.91
-    },
     {
      "code": "2308",
      "name": "台達電",
-     "pct": -7.38
+     "pct": -6.64
+    },
+    {
+     "code": "3037",
+     "name": "欣興",
+     "pct": -9.13
+    },
+    {
+     "code": "2383",
+     "name": "台光電",
+     "pct": -6.83
     }
    ]
   },
   {
-   "name": "通信網路",
+   "name": "航運",
    "count": 18,
    "upRatio": 0,
-   "avgPct": -5.17,
-   "valueShare": 2.8,
-   "score": -38.5,
+   "avgPct": -3.74,
+   "valueShare": 1,
+   "score": -28.9,
    "leaders": [
     {
-     "code": "2345",
-     "name": "智邦",
-     "pct": -6.76
+     "code": "2603",
+     "name": "長榮",
+     "pct": -4.83
     },
     {
-     "code": "4977",
-     "name": "眾達-KY",
-     "pct": -4.36
+     "code": "2615",
+     "name": "萬海",
+     "pct": -4.87
     },
     {
-     "code": "2412",
-     "name": "中華電",
-     "pct": 0
+     "code": "2609",
+     "name": "陽明",
+     "pct": -4.83
     }
    ]
   },
   {
-   "name": "其他電子",
-   "count": 19,
+   "name": "電子通路",
+   "count": 13,
    "upRatio": 0,
-   "avgPct": -5.69,
-   "valueShare": 4.3,
-   "score": -41.2,
+   "avgPct": -3.74,
+   "valueShare": 0.7,
+   "score": -29.2,
    "leaders": [
     {
-     "code": "2317",
-     "name": "鴻海",
-     "pct": -2.08
+     "code": "3036",
+     "name": "文曄",
+     "pct": -4.87
     },
     {
-     "code": "2360",
-     "name": "致茂",
-     "pct": -9.18
+     "code": "3702",
+     "name": "大聯大",
+     "pct": -2.06
     },
     {
-     "code": "3665",
-     "name": "貿聯-KY",
-     "pct": -6.37
+     "code": "5434",
+     "name": "崇越",
+     "pct": -5.58
+    }
+   ]
+  },
+  {
+   "name": "化學",
+   "count": 20,
+   "upRatio": 5,
+   "avgPct": -4.23,
+   "valueShare": 0.4,
+   "score": -31.5,
+   "leaders": [
+    {
+     "code": "1709",
+     "name": "和益",
+     "pct": -8.08
+    },
+    {
+     "code": "1717",
+     "name": "長興",
+     "pct": -3.85
+    },
+    {
+     "code": "1727",
+     "name": "中華化",
+     "pct": -2.28
+    }
+   ]
+  },
+  {
+   "name": "橡膠",
+   "count": 4,
+   "upRatio": 0,
+   "avgPct": -4.1,
+   "valueShare": 0.1,
+   "score": -32.7,
+   "leaders": [
+    {
+     "code": "2105",
+     "name": "正新",
+     "pct": -1.48
+    },
+    {
+     "code": "2103",
+     "name": "台橡",
+     "pct": -9.96
+    },
+    {
+     "code": "2101",
+     "name": "南港",
+     "pct": -1.44
+    }
+   ]
+  },
+  {
+   "name": "電器電纜",
+   "count": 4,
+   "upRatio": 0,
+   "avgPct": -4.26,
+   "valueShare": 0.1,
+   "score": -34,
+   "leaders": [
+    {
+     "code": "1605",
+     "name": "華新",
+     "pct": -3.53
+    },
+    {
+     "code": "1609",
+     "name": "大亞",
+     "pct": -4.47
+    },
+    {
+     "code": "1608",
+     "name": "華榮",
+     "pct": -4.99
+    }
+   ]
+  },
+  {
+   "name": "電腦及週邊",
+   "count": 37,
+   "upRatio": 0,
+   "avgPct": -5.05,
+   "valueShare": 5.7,
+   "score": -34.7,
+   "leaders": [
+    {
+     "code": "6669",
+     "name": "緯穎",
+     "pct": -5.76
+    },
+    {
+     "code": "2382",
+     "name": "廣達",
+     "pct": -3.17
+    },
+    {
+     "code": "3231",
+     "name": "緯創",
+     "pct": -5.04
     }
    ]
   },
   {
    "name": "電機機械",
-   "count": 20,
-   "upRatio": 0,
-   "avgPct": -6.07,
-   "valueShare": 2.1,
-   "score": -46.5,
+   "count": 21,
+   "upRatio": 4.8,
+   "avgPct": -5.06,
+   "valueShare": 1.5,
+   "score": -37.1,
    "leaders": [
     {
      "code": "8996",
      "name": "高力",
-     "pct": -9.79
+     "pct": -8.53
     },
     {
      "code": "3167",
      "name": "大量",
-     "pct": -9.97
+     "pct": -9.91
     },
     {
-     "code": "1590",
-     "name": "亞德客-KY",
-     "pct": 0
+     "code": "1560",
+     "name": "中砂",
+     "pct": -5.77
+    }
+   ]
+  },
+  {
+   "name": "玻璃陶瓷",
+   "count": 3,
+   "upRatio": 0,
+   "avgPct": -4.98,
+   "valueShare": 0.4,
+   "score": -39.4,
+   "leaders": [
+    {
+     "code": "1802",
+     "name": "台玻",
+     "pct": -3.83
+    },
+    {
+     "code": "1809",
+     "name": "中釉",
+     "pct": -6.97
+    },
+    {
+     "code": "1810",
+     "name": "和成",
+     "pct": -4.13
+    }
+   ]
+  },
+  {
+   "name": "其他電子",
+   "count": 23,
+   "upRatio": 0,
+   "avgPct": -6.15,
+   "valueShare": 3.5,
+   "score": -45.7,
+   "leaders": [
+    {
+     "code": "2317",
+     "name": "鴻海",
+     "pct": -4.47
+    },
+    {
+     "code": "3665",
+     "name": "貿聯-KY",
+     "pct": -9.86
+    },
+    {
+     "code": "2404",
+     "name": "漢唐",
+     "pct": -7.32
     }
    ]
   }
  ],
  "news": [
   {
-   "title": "抗議大規模興建資料中心 示威者闖荷蘭微軟工地",
-   "link": "https://tw.news.yahoo.com/%E6%8A%97%E8%AD%B0%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%88%88%E5%BB%BA%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-%E7%A4%BA%E5%A8%81%E8%80%85%E9%97%96%E8%8D%B7%E8%98%AD%E5%BE%AE%E8%BB%9F%E5%B7%A5%E5%9C%B0-141119543.html",
-   "time": "Fri, 06 Nov 2026 14:11:19 GMT"
+   "title": "川普想靠換人讓Fed降息？民主黨掌參院 這條路更難了",
+   "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%83%B3%E9%9D%A0%E6%8F%9B%E4%BA%BA%E8%AE%93fed%E9%99%8D%E6%81%AF-%E6%B0%91%E4%B8%BB%E9%BB%A8%E6%8E%8C%E5%8F%83%E9%99%A2-%E9%80%99%E6%A2%9D%E8%B7%AF%E6%9B%B4%E9%9B%A3%E4%BA%86-160003908.html",
+   "time": "Mon, 09 Nov 2026 16:00:03 GMT"
   },
   {
-   "title": "【公告】馬光-KY董事會決議通過重要子公司HUA KUANG MEDICAL HOLDINGLIMITED辦理清算及集團組織重組架構案",
-   "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E9%A6%AC%E5%85%89-ky%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E9%80%9A%E9%81%8E%E9%87%8D%E8%A6%81%E5%AD%90%E5%85%AC%E5%8F%B8hua-kuang-medical-140716989.html",
-   "time": "Fri, 06 Nov 2026 14:07:16 GMT"
+   "title": "NIQ將出席2026年J.P. Morgan終極服務投資人大會",
+   "link": "https://tw.stock.yahoo.com/news/niq%E5%B0%87%E5%87%BA%E5%B8%AD2026%E5%B9%B4j-p-morgan%E7%B5%82%E6%A5%B5%E6%9C%8D%E5%8B%99%E6%8A%95%E8%B3%87%E4%BA%BA%E5%A4%A7%E6%9C%83-155100930.html",
+   "time": "Mon, 09 Nov 2026 15:51:00 GMT"
   },
   {
-   "title": "美國10月非農就業超強！增16.5萬人遠超預期",
-   "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B10%E6%9C%88%E9%9D%9E%E8%BE%B2%E5%B0%B1%E6%A5%AD%E8%B6%85%E5%BC%B7-%E5%A2%9E16-5%E8%90%AC%E4%BA%BA%E9%81%A0%E8%B6%85%E9%A0%90%E6%9C%9F-140543663.html",
-   "time": "Fri, 06 Nov 2026 14:05:43 GMT"
+   "title": "同欣電擬收購新加坡證交所上市公司GTC 100%股權，轉型為全方位「封測整合服務商」",
+   "link": "https://tw.stock.yahoo.com/news/%E5%90%8C%E6%AC%A3%E9%9B%BB%E6%93%AC%E6%94%B6%E8%B3%BC%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%AD%89%E4%BA%A4%E6%89%80%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8gtc-100-%E8%82%A1%E6%AC%8A-%E8%BD%89%E5%9E%8B%E7%82%BA%E5%85%A8%E6%96%B9%E4%BD%8D-%E5%B0%81%E6%B8%AC%E6%95%B4%E5%90%88%E6%9C%8D%E5%8B%99%E5%95%86-154100040.html",
+   "time": "Mon, 09 Nov 2026 15:41:00 GMT"
   },
   {
-   "title": "Graco QUANTM i230將電氣化帶入高流量流體輸送應用",
-   "link": "https://tw.stock.yahoo.com/news/graco-quantm-i230%E5%B0%87%E9%9B%BB%E6%B0%A3%E5%8C%96%E5%B8%B6%E5%85%A5%E9%AB%98%E6%B5%81%E9%87%8F%E6%B5%81%E9%AB%94%E8%BC%B8%E9%80%81%E6%87%89%E7%94%A8-140200225.html",
-   "time": "Fri, 06 Nov 2026 14:02:00 GMT"
+   "title": "佳格雙軌回應高齡需求，深化「全家健康營養夥伴」定位",
+   "link": "https://tw.stock.yahoo.com/news/%E4%BD%B3%E6%A0%BC%E9%9B%99%E8%BB%8C%E5%9B%9E%E6%87%89%E9%AB%98%E9%BD%A1%E9%9C%80%E6%B1%82-%E6%B7%B1%E5%8C%96-%E5%85%A8%E5%AE%B6%E5%81%A5%E5%BA%B7%E7%87%9F%E9%A4%8A%E5%A4%A5%E4%BC%B4-%E5%AE%9A%E4%BD%8D-153700646.html",
+   "time": "Mon, 09 Nov 2026 15:37:00 GMT"
   },
   {
-   "title": "台股血崩改買大樂透？永和天選之人「一注獨得1.84億元頭獎」",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E8%A1%80%E5%B4%A9%E6%94%B9%E8%B2%B7%E5%A4%A7%E6%A8%82%E9%80%8F%EF%BC%9F%E6%B0%B8%E5%92%8C%E5%A4%A9%E9%81%B8%E4%B9%8B%E4%BA%BA%E3%80%8C%E4%B8%80%E6%B3%A8%E7%8D%A8%E5%BE%97184%E5%84%84%E5%85%83%E9%A0%AD%E7%8D%8E%E3%80%8D-140504316.html",
-   "time": "Fri, 06 Nov 2026 14:00:04 GMT"
+   "title": "金融時報：新加坡超越愛爾蘭　成為蘋果最大避稅地",
+   "link": "https://tw.stock.yahoo.com/news/%E9%87%91%E8%9E%8D%E6%99%82%E5%A0%B1-%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%B6%85%E8%B6%8A%E6%84%9B%E7%88%BE%E8%98%AD-%E6%88%90%E7%82%BA%E8%98%8B%E6%9E%9C%E6%9C%80%E5%A4%A7%E9%81%BF%E7%A8%85%E5%9C%B0-153352460.html",
+   "time": "Mon, 09 Nov 2026 15:33:52 GMT"
   },
   {
-   "title": "盼下周一穩定股匯  卓揆率財金首長向賴總統報告因應對策",
-   "link": "https://tw.stock.yahoo.com/news/%E7%9B%BC%E4%B8%8B%E5%91%A8-%E7%A9%A9%E5%AE%9A%E8%82%A1%E5%8C%AF-%E5%8D%93%E6%8F%86%E7%8E%87%E8%B2%A1%E9%87%91%E9%A6%96%E9%95%B7%E5%90%91%E8%B3%B4%E7%B8%BD%E7%B5%B1%E5%A0%B1%E5%91%8A%E5%9B%A0%E6%87%89%E5%B0%8D%E7%AD%96-135146827.html",
-   "time": "Fri, 06 Nov 2026 13:51:46 GMT"
+   "title": "10月出口寫新高、連36紅/史上最長，前10月年增近5成",
+   "link": "https://tw.stock.yahoo.com/news/10%E6%9C%88%E5%87%BA%E5%8F%A3%E5%AF%AB%E6%96%B0%E9%AB%98-%E9%80%A336%E7%B4%85-%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7-%E5%89%8D10%E6%9C%88%E5%B9%B4%E5%A2%9E%E8%BF%915%E6%88%90-153200313.html",
+   "time": "Mon, 09 Nov 2026 15:32:00 GMT"
   },
   {
-   "title": "邦泰台中潭子總公司明年首季完成遷廠　擬出售活化資產",
-   "link": "https://tw.stock.yahoo.com/news/%E9%82%A6%E6%B3%B0%E5%8F%B0%E4%B8%AD%E6%BD%AD%E5%AD%90%E7%B8%BD%E5%85%AC%E5%8F%B8%E6%98%8E%E5%B9%B4%E9%A6%96%E5%AD%A3%E5%AE%8C%E6%88%90%E9%81%B7%E5%BB%A0-%E6%93%AC%E5%87%BA%E5%94%AE%E6%B4%BB%E5%8C%96%E8%B3%87%E7%94%A2-135007529.html",
-   "time": "Fri, 06 Nov 2026 13:50:07 GMT"
+   "title": "中信投信金屬及礦業、未來關鍵戰略基金11/23開募",
+   "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E4%BF%A1%E6%8A%95%E4%BF%A1%E9%87%91%E5%B1%AC%E5%8F%8A%E7%A4%A6%E6%A5%AD-%E6%9C%AA%E4%BE%86%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9F%BA%E9%87%9111-23%E9%96%8B%E5%8B%9F-153100012.html",
+   "time": "Mon, 09 Nov 2026 15:31:00 GMT"
   },
   {
-   "title": "台股失守4萬點　上市櫃融資餘額合計大減564.18億元",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%A4%B1%E5%AE%884%E8%90%AC%E9%BB%9E-%E4%B8%8A%E5%B8%82%E6%AB%83%E8%9E%8D%E8%B3%87%E9%A4%98%E9%A1%8D%E5%90%88%E8%A8%88%E5%A4%A7%E6%B8%9B564-18%E5%84%84%E5%85%83-135005707.html",
-   "time": "Fri, 06 Nov 2026 13:50:05 GMT"
+   "title": "台泥 代重要子公司OYAK Cimento Fabrikalari A.S.公告發放現金股利",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E6%B3%A5-%E4%BB%A3%E9%87%8D%E8%A6%81%E5%AD%90%E5%85%AC%E5%8F%B8oyak-cimento-fabrikalari-%E5%85%AC%E5%91%8A%E7%99%BC%E6%94%BE%E7%8F%BE%E9%87%91%E8%82%A1%E5%88%A9-152900038.html",
+   "time": "Mon, 09 Nov 2026 15:29:00 GMT"
   },
   {
-   "title": "【公告】天宇 2026年10月合併營收9515.5萬元 年增230.26%",
-   "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%A4%A9%E5%AE%87-2026%E5%B9%B410%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B69515-5%E8%90%AC%E5%85%83-%E5%B9%B4%E5%A2%9E230-134203095.html",
-   "time": "Fri, 06 Nov 2026 13:42:03 GMT"
+   "title": "雙美 公告本公司獨立董事對薪酬委員會決議事項表示反對意見及對董事會決議事項表示保留意見。",
+   "link": "https://tw.stock.yahoo.com/news/%E9%9B%99%E7%BE%8E-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E7%8D%A8%E7%AB%8B%E8%91%A3%E4%BA%8B%E5%B0%8D%E8%96%AA%E9%85%AC%E5%A7%94%E5%93%A1%E6%9C%83%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85%E8%A1%A8%E7%A4%BA%E5%8F%8D%E5%B0%8D%E6%84%8F%E8%A6%8B%E5%8F%8A%E5%B0%8D%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85%E8%A1%A8%E7%A4%BA%E4%BF%9D%E7%95%99%E6%84%8F%E8%A6%8B-152900979.html",
+   "time": "Mon, 09 Nov 2026 15:29:00 GMT"
   },
   {
-   "title": "大鵬科技前3季每股賺8.11元　新方案切換已獲訂單",
-   "link": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E9%B5%AC%E7%A7%91%E6%8A%80%E5%89%8D3%E5%AD%A3%E6%AF%8F%E8%82%A1%E8%B3%BA8-11%E5%85%83-%E6%96%B0%E6%96%B9%E6%A1%88%E5%88%87%E6%8F%9B%E5%B7%B2%E7%8D%B2%E8%A8%82%E5%96%AE-134101827.html",
-   "time": "Fri, 06 Nov 2026 13:41:01 GMT"
+   "title": "雙美 公告本公司115年第三季財務報告業經提報董事會。",
+   "link": "https://tw.stock.yahoo.com/news/%E9%9B%99%E7%BE%8E-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8115%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A%E6%A5%AD%E7%B6%93%E6%8F%90%E5%A0%B1%E8%91%A3%E4%BA%8B%E6%9C%83-152400249.html",
+   "time": "Mon, 09 Nov 2026 15:24:00 GMT"
   },
   {
-   "title": "沙烏地主權基金攜手銀湖資本 擬250億美元私有化收購Unity",
-   "link": "https://tw.stock.yahoo.com/news/%E6%B2%99%E7%83%8F%E5%9C%B0%E4%B8%BB%E6%AC%8A%E5%9F%BA%E9%87%91%E6%94%9C%E6%89%8B%E9%8A%80%E6%B9%96%E8%B3%87%E6%9C%AC-%E6%93%AC250%E5%84%84%E7%BE%8E%E5%85%83%E7%A7%81%E6%9C%89%E5%8C%96%E6%94%B6%E8%B3%BCunity-134007868.html",
-   "time": "Fri, 06 Nov 2026 13:40:07 GMT"
+   "title": "AI政策風險被高估？星座能源上修全年獲利展望 大摩認賣壓過度",
+   "link": "https://tw.stock.yahoo.com/news/ai%E6%94%BF%E7%AD%96%E9%A2%A8%E9%9A%AA%E8%A2%AB%E9%AB%98%E4%BC%B0-%E6%98%9F%E5%BA%A7%E8%83%BD%E6%BA%90%E4%B8%8A%E4%BF%AE%E5%85%A8%E5%B9%B4%E7%8D%B2%E5%88%A9%E5%B1%95%E6%9C%9B-%E5%A4%A7%E6%91%A9%E8%AA%8D%E8%B3%A3%E5%A3%93%E9%81%8E%E5%BA%A6-152004207.html",
+   "time": "Mon, 09 Nov 2026 15:20:04 GMT"
   },
   {
-   "title": "中油桶裝瓦斯賣一桶賠一桶　經部盼撥補穩物價",
-   "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E6%B2%B9%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF%E8%B3%A3-%E6%A1%B6%E8%B3%A0-%E6%A1%B6-%E7%B6%93%E9%83%A8%E7%9B%BC%E6%92%A5%E8%A3%9C%E7%A9%A9%E7%89%A9%E5%83%B9-133859517.html",
-   "time": "Fri, 06 Nov 2026 13:38:59 GMT"
+   "title": "美股早盤反彈！黃仁勳外遇領輝達獨自重挫6%",
+   "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%97%A9%E7%9B%A4%E5%8F%8D%E5%BD%88-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A4%96%E9%81%87%E9%A0%98%E8%BC%9D%E9%81%94%E7%8D%A8%E8%87%AA%E9%87%8D%E6%8C%AB6-151751132.html",
+   "time": "Mon, 09 Nov 2026 15:17:51 GMT"
   }
  ]
 }
